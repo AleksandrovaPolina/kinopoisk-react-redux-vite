@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    .container__img{
+        .img{
+            max-height: 300px;
+            border-radius: 30px;
+        }
+    }
+
+    .container__info{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+    }
+    .symbols{
+        display: flex;
+        width: 100%;
+        max-width: 200px;
+        justify-content: space-between;
+
+        button{
+            border: none;
+            background-color: white;
+            cursor: pointer;
+        }
+
+        .toggleLike{
+            display: block;
+        }
+    }
+
+    
+}
+
